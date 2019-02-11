@@ -1,0 +1,33 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "Leanna Carl's Resume",
+  "main": "index.js",
+  "scripts": {
+    "createCVHTML": "hackmyresume build cv.json to out/cv.html -t positive",
+    "createCVPDF": "node scripts/print-with-puppeteer.js",
+    "createResumeHTML": "hackmyresume build resume.json to out/resume.html -t ./node_modules/jsonresume-theme-orbit",
+    "analyze": "hackmyresume analyze resume.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gimpneek/resume.git"
+  },
+  "keywords": [
+    "Leanna",
+    "Carl",
+    "Resume"
+  ],
+  "author": "Leanna Carl",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Gimpneek/resume/issues"
+  },
+  "homepage": "https://github.com/Gimpneek/resume#readme",
+  "dependencies": {
+    "hackmyresume": "^1.9.0-beta",
+    "jsonresume-theme-orbit": "^0.5.3",
+    "puppeteer": "^1.11.0"
+  }
+}
