@@ -1,0 +1,19 @@
+language: node_js
+node_js:
+  - "node"
+before_install:
+  - npm install -g npm@latest
+script:
+  - npm run analyze
+  - npm run createCVHTML
+  - npm run createCVPDF
+  - npm run createResumeHTML
+  - sleep 20
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN
+  keep-history: true
+  local-dir: out
+  on:
+    branch: master

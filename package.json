@@ -6,7 +6,7 @@
   "scripts": {
     "createCVHTML": "hackmyresume build cv.json to out/cv.html -t positive",
     "createCVPDF": "node scripts/print-with-puppeteer.js",
-    "createResumeHTML": "hackmyresume build resume.json to out/resume.html -t ./node_modules/jsonresume-theme-orbit",
+    "createResumeHTML": "hackmyresume build resume.json to out/index.html -t ./node_modules/jsonresume-theme-orbit",
     "analyze": "hackmyresume analyze resume.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

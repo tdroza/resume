@@ -1,6 +1,6 @@
 const puppeteer = require("puppeteer");
 const path = require("path");
-const filePath = path.resolve(__dirname, '../out/cv.html');
+const filePath = path.resolve(__dirname, '../out/index.html');
 
 (async () => {
   const browser = await puppeteer.launch();
