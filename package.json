@@ -4,7 +4,7 @@
   "description": "Leanna Carl's Resume",
   "main": "index.js",
   "scripts": {
-    "createCVHTML": "hackmyresume build cv.json to out/cv.html -t positive",
+    "createCVHTML": "hackmyresume build cv.json to out/index.html -t positive",
     "createCVPDF": "node scripts/print-with-puppeteer.js",
     "createResumeHTML": "hackmyresume build resume.json to out/index.html -t ./node_modules/jsonresume-theme-orbit",
     "analyze": "hackmyresume analyze resume.json",
