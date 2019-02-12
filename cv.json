@@ -145,6 +145,105 @@
       "date": "2018-03-01",
       "url": "https://issuu.com/omnilocal/docs/omni_local_kingston_mothers_day_201_6995236b85187c/22",
       "summary": "Main article for Omni Local's Mother's Day Edition"
+    },
+    {
+      "title": "Autumn Special",
+      "category": "article",
+      "publisher": {
+        "name": "Omni Local",
+        "url": "http://omnilocal.co.uk"
+      },
+      "date": "2018-09-01",
+      "url": "https://issuu.com/omnilocal/docs/omni_local_kingston_autumn_2018/22",
+      "summary": "Main article for Omni Local's Autumn Edition"
+    },
+    {
+      "title": "Valentines Day Special",
+      "category": "article",
+      "publisher": {
+        "name": "Omni Local",
+        "url": "http://omnilocal.co.uk"
+      },
+      "date": "2018-02-01",
+      "url": "https://issuu.com/omnilocal/docs/omni_local_valentines_day_2019/22",
+      "summary": "Main article for Omni Local's Valentines Edition"
+    },
+    {
+      "title": "Christmas Special",
+      "category": "article",
+      "publisher": {
+        "name": "Omni Local",
+        "url": "http://omnilocal.co.uk"
+      },
+      "date": "2018-12-01",
+      "url": "https://issuu.com/omnilocal/docs/omni_local_kingston_xmas_2018/22",
+      "summary": "Main article for Omni Local's Christmas Edition"
+    },
+    {
+      "title": "Bank Holiday Special",
+      "category": "article",
+      "publisher": {
+        "name": "Omni Local",
+        "url": "http://omnilocal.co.uk"
+      },
+      "date": "2018-05-01",
+      "url": "https://issuu.com/omnilocal/docs/omni_local_bank_holiday_2018_issue/22",
+      "summary": "Main Article for Omni Local's Bank Holiday Edition"
+    },
+    {
+      "title": "Spring Special",
+      "category": "article",
+      "publisher": {
+        "name": "Omni Local",
+        "url": "http://omnilocal.co.uk"
+      },
+      "date": "2018-04-01",
+      "url": "https://issuu.com/omnilocal/docs/omni_local_kingston_spring_2018_edi/22",
+      "summary": "Main Article for Omni Local's Spring Edition"
+    },
+    {
+      "title": "Christmas Special",
+      "category": "article",
+      "publisher": {
+        "name": "Omni Local",
+        "url": "http://omnilocal.co.uk"
+      },
+      "date": "2017-12-01",
+      "url": "https://issuu.com/omnilocal/docs/omni_local_kingston_xmas_2017/22",
+      "summary": "Main Article for Omni Local's Christmas Edition"
+    },
+    {
+      "title": "Winter Special",
+      "category": "article",
+      "publisher": {
+        "name": "Omni Local",
+        "url": "http://omnilocal.co.uk"
+      },
+      "date": "2017-11-01",
+      "url": "https://issuu.com/omnilocal/docs/omni_local_kingston_winter_2017/22",
+      "summary": "Main Article for Omni Local's Winter Edition"
+    },
+    {
+      "title": "Autumn Special",
+      "category": "article",
+      "publisher": {
+        "name": "Omni Local",
+        "url": "http://omnilocal.co.uk"
+      },
+      "date": "2017-10-01",
+      "url": "https://issuu.com/omnilocal/docs/omni_local_kingston_autumn_2017/22",
+      "summary": "Main Article for Omni Local's Autumn Edition"
+    },
+    {
+      "title": "September Special",
+      "category": "article",
+      "publisher": {
+        "name": "Omni Local",
+        "url": "http://omnilocal.co.uk"
+      },
+      "date": "2016-09-01",
+      "url": "https://issuu.com/omnilocal/docs/omni_local_kingston_september_2016/22",
+      "summary": "Main Article for Omni Local's September Edition"
     }
   ],
   "interests": [
@@ -152,71 +251,8 @@
       "name": "Video Games",
       "summary": "I have an interest in video games and would like to turn my hobby into a profession by writing reviews for retro games",
       "keywords": [
-        "Gaming",
-        "Writing"
+        "I have an interest in video games and would like to turn my hobby into a profession by writing reviews for retro games"
       ]
-    }
-  ],
-  "samples": [
-    {
-      "title": "Mother's Day Special",
-      "summary": "Main article for Omni Local's Mother's Day Edition",
-      "url": "https://issuu.com/omnilocal/docs/omni_local_kingston_mothers_day_201_6995236b85187c/22",
-      "date": "2018-03-01"
-    },
-    {
-      "title": "Autumn Special",
-      "summary": "Main article for Omni Local's Autumn Edition",
-      "url": "https://issuu.com/omnilocal/docs/omni_local_kingston_autumn_2018/22",
-      "date": "2018-09-01"
-    },
-    {
-      "title": "Valentines Day Special",
-      "summary": "Main article for Omni Local's Valentines Edition",
-      "url": "https://issuu.com/omnilocal/docs/omni_local_valentines_day_2019/22",
-      "date": "2018-02-01"
-    },
-    {
-      "title": "Christmas Special",
-      "summary": "Main article for Omni Local's Christmas Edition",
-      "url": "https://issuu.com/omnilocal/docs/omni_local_kingston_xmas_2018/22",
-      "date": "2018-12-01"
-    },
-    {
-      "title": "Bank Holiday Special",
-      "summary": "Main Article for Omni Local's Bank Holiday Edition",
-      "url": "https://issuu.com/omnilocal/docs/omni_local_bank_holiday_2018_issue/22",
-      "date": "2018-05-01"
-    },
-    {
-      "title": "Spring Special",
-      "summary": "Main Article for Omni Local's Spring Edition",
-      "url": "https://issuu.com/omnilocal/docs/omni_local_kingston_spring_2018_edi/22",
-      "date": "2018-04-01"
-    },
-    {
-      "title": "Christmas Special",
-      "summary": "Main Article for Omni Local's Christmas Edition",
-      "url": "https://issuu.com/omnilocal/docs/omni_local_kingston_xmas_2017/22",
-      "date": "2017-12-01"
-    },
-    {
-      "title": "Winter Special",
-      "summary": "Main Article for Omni Local's Winter Edition",
-      "url": "https://issuu.com/omnilocal/docs/omni_local_kingston_winter_2017/22",
-      "date": "2017-11-01"
-    },
-    {
-      "title": "Autumn Special",
-      "summary": "Main Article for Omni Local's Autumn Edition",
-      "url": "https://issuu.com/omnilocal/docs/omni_local_kingston_autumn_2017/22",
-      "date": "2017-10-01"
-    },
-    {
-      "title": "September Special",
-      "summary": "Main Article for Omni Local's September Edition",
-      "url": "https://issuu.com/omnilocal/docs/omni_local_kingston_september_2016/22",
-      "date": "2016-09-01"
     }
   ]
 }
