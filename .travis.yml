@@ -15,6 +15,6 @@ deploy:
   github-token: $GITHUB_TOKEN
   keep-history: true
   local-dir: out
-  file: "avatar.jpg"
+  file: "./avatar.jpg"
   on:
     branch: master
