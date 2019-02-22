@@ -85,12 +85,13 @@
       },
       {
         "position": "Lead Software Engineer",
-        "employer": "Lead developer on BT.com eCommerce platform; Projects include the development of the Google powered search results page (using XML/XSLT and Zeus traffic manager) for BT Internet users, which receives over 1 million hits per day and generates significant advertising revenue; Strong emphasis on performance and stability. Key member of team working on complete redesign of the retail consumer MyAccount homepage and successfully delivered a new online order tracking application resulting in 30% improvement in successfully tracked orders, and 1000 fewer helpdesk calls per week.\nLeading a small on-shore development team as an exemplar of how a test driven, agile development methodology, coupled with experienced, skilled developers, can result in better quality deliveries.",
+        "employer": "BT.com",
+        "summary": "Lead developer on BT.com eCommerce platform; Projects include the development of the Google powered search results page (using XML/XSLT and Zeus traffic manager) for BT Internet users, which receives over 1 million hits per day and generates significant advertising revenue; Strong emphasis on performance and stability. Key member of team working on complete redesign of the retail consumer MyAccount homepage and successfully delivered a new online order tracking application resulting in 30% improvement in successfully tracked orders, and 1000 fewer helpdesk calls per week.\nLeading a small on-shore development team as an exemplar of how a test driven, agile development methodology, coupled with experienced, skilled developers, can result in better quality deliveries.",
         "current": false,
         "start": "2009-04-01",
         "end": "2011-07-01",
         "location": "Martlesham, Ipswich, Suffolk, UK",
-        "url": "https://bjss.com/",
+        "url": "https://bt.com/",
         "keywords": [
           "XML",
           "XSLT",
@@ -104,12 +105,13 @@
       }, 
       {
         "position": "Lead Software Engineer",
-        "employer": "Lead developer for the BT.com Beta platform. Role involved design assurance, review and sign-off of designs and test plans, and technical leadership of development team. Striving to introduce an element of innovation into BT's online presence by launching new self-service applications in “beta” format. Applications that graduate from Beta status are migrated to the mainstream BT.com platform. Unsuccessful applications are quickly identified and reworked or “fail fast” thereby minimising wasted development expense. Tom led a small team of 3 developers to create a gadget framework based around the open source Apache Shindig project for use as a personalised portal for the top 15 BT Wholesale customers.",
+        "employer": "BT",
+        "summary": "Lead developer for the BT.com Beta platform. Role involved design assurance, review and sign-off of designs and test plans, and technical leadership of development team. Striving to introduce an element of innovation into BT's online presence by launching new self-service applications in “beta” format. Applications that graduate from Beta status are migrated to the mainstream BT.com platform. Unsuccessful applications are quickly identified and reworked or “fail fast” thereby minimising wasted development expense. Tom led a small team of 3 developers to create a gadget framework based around the open source Apache Shindig project for use as a personalised portal for the top 15 BT Wholesale customers.",
         "current": false,
         "start": "2008-01-01",
         "end": "2009-04-01",
         "location": "Martlesham, Ipswich, Suffolk, UK",
-        "url": "https://bjss.com/",
+        "url": "https://bt.com/",
         "keywords": [
           "Javascript",
           "JQuery",
@@ -122,12 +124,13 @@
       },
       {
         "position": "J2EE Software Engineer",
-        "employer": "J2EE developer on BT.com Beta. Focusing on innovative new applications heavily influenced by emerging Web2.0 technologies and following Agile Delivery work practices. Responsibilities included rapid turnaround of prototypes, proof-of-concepts, high-level design, implementation, and close collaboration with Business Improvement managers to identify and capture the requirements that solve business problems. Other responsibilities include facilitator of Agile Scrum sessions, running daily stand-up meetings and weekly checkpoints. Particular focus on developing new applications around: Google Maps; Ajax, Widgets/Gadgets (iGoogle); 3rd party data APIs (ReST, XML, JSON) and Javascript frameworks (Jquery, prototype, scriptaculous etc).",
+        "employer": "BT",
+        "summary": "J2EE developer on BT.com Beta. Focusing on innovative new applications heavily influenced by emerging Web2.0 technologies and following Agile Delivery work practices. Responsibilities included rapid turnaround of prototypes, proof-of-concepts, high-level design, implementation, and close collaboration with Business Improvement managers to identify and capture the requirements that solve business problems. Other responsibilities include facilitator of Agile Scrum sessions, running daily stand-up meetings and weekly checkpoints. Particular focus on developing new applications around: Google Maps; Ajax, Widgets/Gadgets (iGoogle); 3rd party data APIs (ReST, XML, JSON) and Javascript frameworks (Jquery, prototype, scriptaculous etc).",
         "current": false,
         "start": "2005-12-01",
         "end": "2007-12-01",
         "location": "Martlesham, Ipswich, Suffolk, UK",
-        "url": "https://bjss.com/",
+        "url": "https://bt.com/",
         "keywords": [
           "Google",
           "Maps",
@@ -143,7 +146,8 @@
       },
       {
         "position": "J2EE Software Engineer",
-        "employer": "Rewriting key consumer web applications for new WebLogic Portal platform. Release 1: worked on Access Control, focussing on Login & Registration. Responsible for implementation of key components of the website security. Release 2: Worked on Products & Services webapp, responsible for implementation of key back-end EJB components.",
+        "employer": "BT",
+        "summary": "Rewriting key consumer web applications for new WebLogic Portal platform. Release 1: worked on Access Control, focussing on Login & Registration. Responsible for implementation of key components of the website security. Release 2: Worked on Products & Services webapp, responsible for implementation of key back-end EJB components.",
         "current": false,
         "start": "2003-04-01",
         "end": "2005-12-01",
@@ -161,7 +165,8 @@
       },      
           {
         "position": "Developer",
-        "employer": "Joined BT, working on Webtrack, a web based fleet management and tracking application using GPS positioning and Inmarsat satellite/SMS messaging. Writing comms applications and developing for mobile devices (Windows CE). Responsible for creating a mobile application that was successfully trialled within BTPayphones. Developed mobile consumer applications based around SMS, personalisation and location, and resulting in an application prototype that was delivered into the BT Brightstar incuband Rocking Frog for commercial exploitation outside of BT. Performed customer contact role to Internal Ventures customer. Also supported external proposition development.",
+        "employer": "BT",
+        "summary": "Joined BT, working on Webtrack, a web based fleet management and tracking application using GPS positioning and Inmarsat satellite/SMS messaging. Writing comms applications and developing for mobile devices (Windows CE). Responsible for creating a mobile application that was successfully trialled within BTPayphones. Developed mobile consumer applications based around SMS, personalisation and location, and resulting in an application prototype that was delivered into the BT Brightstar incuband Rocking Frog for commercial exploitation outside of BT. Performed customer contact role to Internal Ventures customer. Also supported external proposition development.",
         "current": false,
         "start": "1999-07-01",
         "end": "2003-04-03",
