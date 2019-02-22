@@ -48,8 +48,42 @@
   "education": {
     "level": "GCSE",
     "history": [
+       {
+        "institution": "University of Nottingham",
+        "start": "1996-09-01",
+        "end": "1999-06-01",
+        "grade": "2:1",
+        "highlights": [
+          "",
+          ""
+        ],
+        "keywords": [
+          "Computer Science",
+          "AI",
+          "Psychology"
+        ],
+        "summary": "2:1",
+        "studyType": "BSc Computer Science, Artificial Intelligence and Psychology"
+      },     
       {
-        "institution": "Abbeydale Grange Secondary School, Sheffield",
+        "institution": "Sheffield College, Norton Centre",
+        "start": "1994-09-01",
+        "end": "1996-06-01",
+        "grade": "",
+        "highlights": [
+          "",
+          ""
+        ],
+        "keywords": [
+          "English",
+          "Maths",
+          "Computing"
+        ],
+        "summary": "",
+        "studyType": "A-Level Maths, English, Computing, General Studies; AS-Level Further Maths"
+      },
+      {
+        "institution": "Abbeydale Grange School, Sheffield",
         "start": "1994-09-01",
         "end": "1990-06-01",
         "grade": "",
