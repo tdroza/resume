@@ -1,17 +1,16 @@
 {
-  "name": "Leanna Carl",
+  "name": "Tom D'Roza",
   "info": {
-    "label": "Editor at Omni Local",
+    "label": "Scrum Master / Team Lead at BJSS",
     "image": "",
-    "brief": "Creative Editor and Writer looking to expand their domain knowledge and experience outside of local magazine publishing. I'm really interested in art, food, videogames and music and would love a chance to incorporate these passions into my work. I love what I do for a living in the publishing industry, however I am keen to explore other areas."
+    "brief": "Tom is a highly motivated individual with excellent technical and communication skills. An experienced professional software developer and technical team lead, with a career spanning twenty years in fields ranging from Enterprise Web, Mobile, Location Based Services, and currently working on a national healthcare system."
   },
   "contact": {
-    "email": "leannaacarl@gmail.com",
-    "website": "http://medium.com/@leannacarl"
+    "website": "http://twitter.com/tdroza"
   },
   "meta": {
     "format": "FRESH@^1.0.0-beta",
-    "modified": "2019-01-01T22:01:21.152Z"
+    "modified": "2019-02-22T22:01:21.152Z"
   },
   "location": {
     "city": "Leeds",
@@ -19,52 +18,31 @@
     "country": "United Kingdom"
   },
   "employment": {
-    "summary": "6 years experience writing, editing and publishing. Currently working for a local magazine with a readership of 20,000. My work also involves data entry, social media management, website maintenance and general admin.",
+    "summary": "Scrum Master at BJSS",
     "history": [
       {
-        "position": "Editor",
-        "employer": "Omni Local",
-        "summary": "6 years experience writing, editing and publishing experience working for a local magazine with a readership of 20,000. My work also involves data entry, social media management, website maintenance and general admin.",
-        "start": "2013-09-09",
-        "location": "Kingston-upon-Thames, London, United Kingdom",
-        "url": "https://omnilocal.co.uk/",
+        "position": "Scrum Master",
+        "employer": "BJSS, Leeds",
+        "summary": "Initially involved in analysis of the existing legacy application and bid preparation prior to winning the contract. Role involved 2-week on-site pre-elaboration phase focussing on examination of existing proprietary codebase for the legacy application, code metrics, functional analysis, detailed discussion with Business Analysts leading to requirements gathering, discussions with the client's own Technical Architects, and investigation into candidate technologies for the bid. Following the pre-elaboration, Tom was then heavily involved in the proposal document that formed the basis of the bid. Producing key sections of the document including comparison of web technologies and frameworks, database systems, CMS
+
+Following a successful bid, Tom was heavily involved in the Sprint Zero and Elaboration activities, setting up Git repositores, build servers, project structure and the reference architecture. This role required close teamwork with the Technical Architects to refine and agree the project's code structure and key design patterns around separation of tiers, REST APIs, database transactions and audit, module structure and coding standards. ",
+        "start": "2013-05-01",
+        "location": "Leeds, West Yorkshire, United Kingdom",
+        "url": "https://bjss.com/",
         "keywords": [
-          "Editing",
-          "Social Media",
-          "Content Creation",
-          "Writing",
-          "Engagement",
-          "Event Management",
-          "Advertising"
+          "Agile",
+          "Scrum",
+          "Java",
+          "Web",
+          "Javascript",
+          "Git",
+          "Quality"
         ],
         "highlights": [
-          "Write, edit and publish Omni Local a magazine with a readership of 20,000",
-          "Won Apprentice of the Year award for work at Omni Local",
-          "Interviewed senior members of the coucil, including the Mayor of Kingston-upon-Thames",
-          "Co-organised a comedy festival in aide of charity",
-          "Created and grew social media presence for Omni Local via community engagement",
-          "Content creation and management for Omni Local Business Network which covers London, Surrey and more",
-          "Worked with marketing colleagues to sell and organise advertising in the magazine and website",
-          "Created marketing email newsletter for Omni Local Buisiness Network which covers London, Surrey and more"
-        ]
-      },
-      {
-        "position": "Administration Assistant",
-        "employer": "Quintessence Publishing",
-        "summary": "Work experience at a major dental textbook publishing company",
-        "start": "2013-05-09",
-        "end": "2013-06-09",
-        "location": "New Malden, London, United Kingdom",
-        "url": "http://www.quintpub.co.uk/",
-        "keywords": [
-          "Data Entry",
-          "Advertising",
-          "Administration"
-        ],
-        "highlights": [
-          "Data Entry for a major dental textbook publishing company",
-          "Helped coordinate the sending of advertising mail outs",
-          "General adminstration and office management duties"
+          "Analysis of legacy application",
+          "Successful bid for new work",
+          "Elaboration",
+          "Team lead"
         ]
       }
     ]
@@ -73,20 +51,20 @@
     "level": "GCSE",
     "history": [
       {
-        "institution": "Raynes Park High School",
-        "start": "2002-09-01",
-        "end": "2006-06-01",
-        "grade": "1A*, 1A, 1B, 4Cs, 2Ds",
+        "institution": "Abbeydale Grange Secondary School, Sheffield",
+        "start": "1994-09-01",
+        "end": "1990-06-01",
+        "grade": "",
         "highlights": [
-          "A* in English Language",
-          "A in English Literature"
+          "",
+          ""
         ],
         "keywords": [
           "English",
           "Maths",
           "Science"
         ],
-        "summary": "1A*, 1A, 1B, 4Cs, 2Ds",
+        "summary": "8As, 2A*",
         "studyType": "GCSE"
       }
     ]
@@ -94,164 +72,20 @@
   "skills": {
     "sets": [
       {
-        "name": "Writing",
-        "level": "master",
-        "skills": [
-          "6 years experience writing for a magazine with a readership of 20,000",
-          "Web Content writingfor a business networking website covering London, Surrey and more",
-          "Newsletter content creation for a business networking website covering London, Surrey and more",
-          "Social Media post writing and content creation"
-        ]
-      },
-      {
-        "name": "Editing",
-        "level": "advanced",
-        "skills": [
-          "Proof Reading for a published magazine, web content and marketing campaign emails",
-          "Working with marketing colleagues to ensure their communications convey the correct tone for their audience",
-          "Working with advertising customers to ensure their messages reach their intended audience with maximum impact",
-          "Working closely with layout designer for a published magazine to ensure everythings ready to print",
-          "Liase with content creators to ensure the articles they contribute to the magazine meet our writing standards"
-        ]
-      },
-      {
-        "name": "Administration",
+        "name": "Stuff",
         "level": "intermediate",
         "skills": [
-          "Data Entry and analysis for business critical functions such as advertising revenue and customer relation management",
-          "Engaging with readers and advertisers via email and post to ensure the business runs smoothly",
-          "Chasing up contributors to ensure they submit their content in time for publishing"
+          ""
         ]
       }
     ]
   },
-  "recognition": [
-    {
-      "category": "award",
-      "title": "Apprentice of the year",
-      "date": "2014",
-      "from": "Kingston Adult Education",
-      "summary": "Awarded Apprentice of the year for my work at Omni Local."
-    }
-  ],
-  "writing": [
-    {
-      "title": "Mother's Day Special",
-      "category": "article",
-      "publisher": {
-        "name": "Omni Local",
-        "url": "http://omnilocal.co.uk"
-      },
-      "date": "2018-03-01",
-      "url": "https://issuu.com/omnilocal/docs/omni_local_kingston_mothers_day_201_6995236b85187c/22",
-      "summary": "Main article for Omni Local's Mother's Day Edition"
-    },
-    {
-      "title": "Autumn Special",
-      "category": "article",
-      "publisher": {
-        "name": "Omni Local",
-        "url": "http://omnilocal.co.uk"
-      },
-      "date": "2018-09-01",
-      "url": "https://issuu.com/omnilocal/docs/omni_local_kingston_autumn_2018/22",
-      "summary": "Main article for Omni Local's Autumn Edition"
-    },
-    {
-      "title": "Valentines Day Special",
-      "category": "article",
-      "publisher": {
-        "name": "Omni Local",
-        "url": "http://omnilocal.co.uk"
-      },
-      "date": "2018-02-01",
-      "url": "https://issuu.com/omnilocal/docs/omni_local_valentines_day_2019/22",
-      "summary": "Main article for Omni Local's Valentines Edition"
-    },
-    {
-      "title": "Christmas Special",
-      "category": "article",
-      "publisher": {
-        "name": "Omni Local",
-        "url": "http://omnilocal.co.uk"
-      },
-      "date": "2018-12-01",
-      "url": "https://issuu.com/omnilocal/docs/omni_local_kingston_xmas_2018/22",
-      "summary": "Main article for Omni Local's Christmas Edition"
-    },
-    {
-      "title": "Bank Holiday Special",
-      "category": "article",
-      "publisher": {
-        "name": "Omni Local",
-        "url": "http://omnilocal.co.uk"
-      },
-      "date": "2018-05-01",
-      "url": "https://issuu.com/omnilocal/docs/omni_local_bank_holiday_2018_issue/22",
-      "summary": "Main Article for Omni Local's Bank Holiday Edition"
-    },
-    {
-      "title": "Spring Special",
-      "category": "article",
-      "publisher": {
-        "name": "Omni Local",
-        "url": "http://omnilocal.co.uk"
-      },
-      "date": "2018-04-01",
-      "url": "https://issuu.com/omnilocal/docs/omni_local_kingston_spring_2018_edi/22",
-      "summary": "Main Article for Omni Local's Spring Edition"
-    },
-    {
-      "title": "Christmas Special",
-      "category": "article",
-      "publisher": {
-        "name": "Omni Local",
-        "url": "http://omnilocal.co.uk"
-      },
-      "date": "2017-12-01",
-      "url": "https://issuu.com/omnilocal/docs/omni_local_kingston_xmas_2017/22",
-      "summary": "Main Article for Omni Local's Christmas Edition"
-    },
-    {
-      "title": "Winter Special",
-      "category": "article",
-      "publisher": {
-        "name": "Omni Local",
-        "url": "http://omnilocal.co.uk"
-      },
-      "date": "2017-11-01",
-      "url": "https://issuu.com/omnilocal/docs/omni_local_kingston_winter_2017/22",
-      "summary": "Main Article for Omni Local's Winter Edition"
-    },
-    {
-      "title": "Autumn Special",
-      "category": "article",
-      "publisher": {
-        "name": "Omni Local",
-        "url": "http://omnilocal.co.uk"
-      },
-      "date": "2017-10-01",
-      "url": "https://issuu.com/omnilocal/docs/omni_local_kingston_autumn_2017/22",
-      "summary": "Main Article for Omni Local's Autumn Edition"
-    },
-    {
-      "title": "September Special",
-      "category": "article",
-      "publisher": {
-        "name": "Omni Local",
-        "url": "http://omnilocal.co.uk"
-      },
-      "date": "2016-09-01",
-      "url": "https://issuu.com/omnilocal/docs/omni_local_kingston_september_2016/22",
-      "summary": "Main Article for Omni Local's September Edition"
-    }
-  ],
   "interests": [
     {
-      "name": "Video Games",
-      "summary": "I have an interest in video games and would like to turn my hobby into a profession by writing reviews for retro games",
+      "name": "Photography",
+      "summary": "I have an interest in photography and have run a photo competition at work for the last 6 years.",
       "keywords": [
-        "I have an interest in video games and would like to turn my hobby into a profession by writing reviews for retro games"
+          "photo, camera, photography, pictures, video, videography"
       ]
     }
   ]
