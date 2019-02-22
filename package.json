@@ -1,7 +1,7 @@
 {
   "name": "resume",
   "version": "1.0.0",
-  "description": "Leanna Carl's Resume",
+  "description": "Tom D'Roza's Resume",
   "main": "index.js",
   "scripts": {
     "createCVHTML": "hackmyresume build cv.json to out/index.html -t positive",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Gimpneek/resume.git"
+    "url": "git+https://github.com/tdroza/resume.git"
   },
   "keywords": [
     "Leanna",
@@ -22,9 +22,9 @@
   "author": "Leanna Carl",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Gimpneek/resume/issues"
+    "url": "https://github.com/tdroza/resume/issues"
   },
-  "homepage": "https://github.com/Gimpneek/resume#readme",
+  "homepage": "https://github.com/tdroza/resume#readme",
   "dependencies": {
     "hackmyresume": "^1.9.0-beta",
     "jsonresume-theme-orbit": "^0.5.3",
