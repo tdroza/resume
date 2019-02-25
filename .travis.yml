@@ -2,7 +2,7 @@ language: node_js
 node_js:
   - "node"
 before_install:
-  #- npm install -g npm@latest
+  - npm install -g npm@latest
 script:
   - npm run analyze
   - npm run createCVHTML
