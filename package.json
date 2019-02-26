@@ -6,7 +6,7 @@
   "scripts": {
     "createCVHTML": "hackmyresume build cv.json to out/index.html -t positive",
     "createCVPDF": "node scripts/print-with-puppeteer.js",
-    "createResumeHTML": "hackmyresume build cv.json to out/index.html -t ./node_modules/jsonresume-theme-rocketspacer",
+    "createResumeHTML": "hackmyresume build cv.json to out/index.html -t ./node_modules/jsonresume-theme-orbit",
     "analyze": "hackmyresume analyze cv.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -28,6 +28,11 @@
   "homepage": "https://github.com/tdroza/resume#readme",
   "dependencies": {
     "hackmyresume": "^1.9.0-beta",
+    "jsonresume-theme-caffeine": "^1.2.3",
+    "jsonresume-theme-elegant": "^1.12.1",
+    "jsonresume-theme-eloquent": "^4.1.0",
+    "jsonresume-theme-kendall": "^0.1.19",
+    "jsonresume-theme-material": "^1.1.2",
     "jsonresume-theme-orbit": "^0.5.3",
     "jsonresume-theme-rocketspacer": "1.0.11",
     "puppeteer": "^1.11.0"
