@@ -3,7 +3,7 @@
   "info": {
     "label": "Scrum Master / Team Lead at BJSS",
     "image": "https://gravatar.com/avatar/9446f5a21bc9fd7d366dc5517d2df4e6?s=250",
-    "brief": "Tom is a highly motivated individual with excellent technical and communication skills. An experienced professional software developer and technical team lead, with a career spanning twenty years in fields ranging that include Healthcare,Commoditites Trading, Enterprise Web Mobile and Location Based Services."
+    "brief": "Tom is a highly motivated individual with excellent technical and communication skills. An advocate of Agile development methodologies, Tom is an experienced professional software developer and technical team lead. His career spans twenty years in fields that include Healthcare, Commoditites Trading, Enterprise Web, Mobile and Location Based Services."
   },
   "contact": {},
   "meta": {
@@ -21,7 +21,7 @@
       {
         "position": "Scrum Master",
         "employer": "BJSS. Client: National Healthcare Provider",
-        "summary": "Initially involved in analysis of the existing proprietary legacy application and bid preparation prior to succesfully winning the contract for a functionaly equivalent replacement built on Open Source technologies. Tom's role involved 2-week on-site pre-elaboration phase focussing on examination of existing codebase for the legacy application, code metrics, functional analysis, detailed discussion with Business Analysts leading to requirements gathering, discussions with the client's own Technical Architects, and investigation into candidate technologies for the bid. Following the pre-elaboration, Tom was then heavily involved in the proposal document that formed the basis of the succesful bid. He produced key sections of the document including comparison of web technologies and frameworks, database systems and CMS. Following a successful bid, Tom was fundamental to the Sprint Zero and Elaboration activities, setting up Git repositores, CI build servers, project structure and the reference architecture. This role required close teamwork with the Principal and Technical Architects to refine and agree the project's code structure and key design patterns around separation of tiers, REST APIs, database transactions and audit, module structure and coding standards.<p/>Currently Tom's role is as a technical lead and Scrum Master for an end-to-end development team of 10 to 12 people including a Business Analyst, Developers, Functional Testers and Automation Engineers. Tom's day-to-day activities include running of daily stand-ups, sprint planning, code reviews and retrospectives. He is responsible for sprint delivery and code quality as well as longer term objectives including knowledge sharing, documentation and upskilling of the team.",
+        "summary": "Initially involved in analysis of an existing proprietary legacy application and bid preparation prior to succesfully winning the contract for a functionally equivalent replacement built on Open Source technologies. Tom's role involved 2-week on-site pre-elaboration phase focussing on examination of the existing codebase, code metrics, functional analysis Close working with Business Analysts and Subject Matter Experts leading to requirements gathering, discussions with the client's own Technical Architects, and investigation into candidate technologies for the bid. Following the pre-elaboration, Tom was then heavily involved in the proposal document that formed the basis of the succesful bid. He produced key sections of the document including comparison of web technologies and frameworks, database systems and CMS. Following a successful bid, Tom was fundamental to the Sprint Zero and Elaboration activities, setting up Git repositores, CI build servers, project structure and the reference architecture. This role required close teamwork with the Principal and Technical Architects to refine and agree the project's code structure and key design patterns around separation of tiers, REST APIs, database transactions and audit, module structure and coding standards.<p/>Currently Tom's role is as a technical lead and Scrum Master for an end-to-end development team of 10 to 12 people including a Business Analyst, Developers, Functional Testers and Automation Engineers. Tom's day-to-day activities include running of daily stand-ups, sprint planning, code reviews and retrospectives. He is responsible for sprint delivery and code quality as well as longer term objectives including knowledge sharing, documentation and upskilling of the team.",
         "current": true,
         "start": "2013-05-01",
         "location": "Leeds, West Yorkshire, UK",
@@ -212,7 +212,7 @@
     "sets": [
       {
         "name": "Scrum Master",
-        "level": "intermediate",
+        "level": "advanced",
         "skills": [
           "estimation",
           "sprint planning",
@@ -223,24 +223,27 @@
         ]
       },
       {
-        "name": "Java",
-        "level": "intermediate",
+        "name": "Back-end development",
+        "level": "advanced",
         "skills": [
           "spring",
           "hibernate"
         ]
       },
       {
-        "name": "Web",
+        "name": "Front-end development",
         "level": "intermediate",
         "skills": [
+          "html",
+          "css",
+          "sass",
           "php",
           "javascript",
           "angular JS"
         ]
       },
       {
-        "name": "databases",
+        "name": "Databases",
         "level": "intermediate",
         "skills": [
           "postgresql",
