@@ -188,7 +188,8 @@
         "end": "1999-06-01",
         "grade": "2:1",
         "summary": "",
-        "studyType": "BSc Computer Science, Artificial Intelligence and Psychology"
+        "studyType": "BSc (Hons)",
+        "area": "Computer Science, Artificial Intelligence and Psychology"
       },
       {
         "institution": "Sheffield College, Norton Centre",
@@ -196,7 +197,17 @@
         "end": "1996-06-01",
         "grade": "",
         "summary": "",
-        "studyType": "A-Level Maths, English, Computing, General Studies; AS-Level Further Maths"
+        "studyType": "A-Level",
+        "area": "Maths, English, Computing, General Studies; AS-Level Further Maths"
+      },
+      {
+        "institution": "Suffolk College",
+        "start": "2003-09-01",
+        "end": "2004-06-01",
+        "grade": "A",
+        "summary": "",
+        "studyType": "GCSE",
+        "area": "Italian"
       },
       {
         "institution": "Abbeydale Grange School, Sheffield",
@@ -204,7 +215,8 @@
         "end": "1990-06-01",
         "grade": "8As, 2A*",
         "summary": "",
-        "studyType": "GCSE"
+        "studyType": "GCSE",
+        "area": "Maths, English, French, Science (x2), Business Studies, IT, Humanities"
       }
     ]
   },
@@ -276,6 +288,19 @@
       "network": "YouTube",
       "url": "https://youtube.com/user/tdroza",
       "user": "tdroza"
+    }
+  ],
+  "writing" : [
+    {
+        "title" : "An Overview of Location-Based Services",
+        "category": "journal",
+        "publisher": {
+            "name": "BT Technology Journal"
+        },
+        "date": "2003-01-01",
+        "url": "https://link.springer.com/article/10.1023%2FA%3A1022491825047",
+        "summary": "This paper provides an overview of terms, technologies and standards used within the location-based services field in the determination and presentation of the location of an entity. A description is provided of data formats and protocols for communicating, storing and manipulating location information and some insight is given into how location information could be used in a range of applications."
+
     }
   ],
   "interests": [
