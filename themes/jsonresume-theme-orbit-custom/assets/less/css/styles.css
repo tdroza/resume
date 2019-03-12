@@ -84,6 +84,8 @@ p {
 }
 .sidebar-wrapper .profile {
   margin-bottom: 15px;
+  max-width: 180px;
+  border-radius: 50%;
 }
 .sidebar-wrapper .contact-list .fa {
   margin-right: 5px;
@@ -230,11 +232,27 @@ p {
 .skillset .item {
   margin-bottom: 15px;
   overflow: hidden;
+  height: 3.5em;
 }
 .skillset .level-title {
   font-size: 14px;
   margin-top: 0;
   margin-bottom: 12px;
+}
+.skillset .item ul {
+  float: left;
+  padding-left: 0px;
+}
+.skillset ul li {
+  display: inline-block;
+  background: #e8f4ff;
+  color: #546371;
+  font-size: 0.9em;
+  padding: 5px;
+  border: 1px solid @theme-color;
+  border-radius: 5px;
+  margin-top: 5px;
+  text-align: center;
 }
 .skillset .level-bar {
   height: 12px;
