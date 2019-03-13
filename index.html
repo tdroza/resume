@@ -1,288 +1,457 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
     
     <head>
-        <meta charset="utf-8">
         <title>Tom D&#x27;Roza</title>
-        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic'
+        <!-- Meta -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Responsive HTML5 Developer Resume for Tom D&#x27;Roza">
+        <meta name="generator" content="https://www.npmjs.com/package/jsonresume-theme-orbit"
+        />
+        <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic'
         rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+        <!-- Global CSS -->
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+        <!-- Plugins CSS -->
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+        crossorigin="anonymous">
+        <!-- Theme CSS -->
         <style>
-            html, body, main, section, header, ul, p, h1, h2, h3 {
-              font-family: 'Open Sans', 'sans-serif';
-              font-size: 14px;
-              line-height: 1.4;
-              margin: 0; padding: 0;
-              display: block;
-            }
-            
-            ::selection {
-              color: #fff;
-              background: #e48a8a; /* WebKit/Blink Browsers */
-            }
-            ::-moz-selection {
-              color: #fff;
-              background: #e48a8a; /* Gecko Browsers */
-            }
-            
-            p::selection {
-              color: #fff;
-            }
-            
-            a {
-              color: #C00000;
-              text-decoration: none;
-            }
-            
-            a:visited {
-              color: #7B0796;
-            }
-            
-            a:hover {
-              text-decoration: underline;
-            }
-            
-            h1 {
-              text-transform: uppercase;
-              font-size:
-            }
-            
-            h2 {
-              text-transform: uppercase;
-              color: #898989;
-              font-size: 2em;
-              position: relative;
-              font-weight: 400;
-            }
-            
-            h3, .tenure {
-              font-size: 1.5em;
-              font-weight: 400;
-            }
-            
-            h3 {
-              margin-top: 0;
-              margin-bottom: 5px;
-              /*width: 85%;*/
-              float: left;
-            }
-            
-            table {
-              width: 100%;
-              text-transform: uppercase;
-            }
-            
-            td:first-child {
-              letter-spacing: 2px;
-              color: #bd5b5b;
-              font-size: 20px;
-            }
-            
-            td:last-child {
-              text-align: justify; /* HTML justification sucks, but in this case... */
-            }
-            
-            hr {
-              display: none;
-            }
-            
-            main {
-              padding: 15px;
-              max-width: 800px;
-              margin: 0 auto;
-            }
-            
-            section {
-              margin-top: 2em;
-            }
-            
-            section > div {
-              margin-top: 2em;
-              overflow: hidden; /* Clear floated children */
-            }
-            
-            section > div p {
-              clear: both;
-            }
-            
-            section > header {
-              position: relative;
-            }
-            
-            p + ul {
-              margin: 1em;
-            }
-            
-            ul {
-              clear: both;
-            }
-            
-            li {
-              margin-left: 2em;
-            }
-            
-            p, li {
-              text-align: justify;
-            }
-            
-            .tenure {
-              float: right;
-              color: #6F6F6F;
-              background-color: #F5F5F5;
-              border-radius: 6px;
-              padding: 4px 6px;
-              font-size: 85%;
-              font-weight: 600;
-              margin-top: 3px;
-            }
-            
-            .location {
-              border: #e2aaaa dashed 1px;
-              background-color: #ffffff;
-              padding: 3px 6px;
-              border-radius: 6px;
-              float: right;
-              margin-right: 5px;
-              float: right;
-              font-size: 85%;
-              color: #717171;
-              font-weight: 600;
-              margin-top: 3px;
-            }
-            
-            span.keywords {
-              font-size: 12px;
-              color: #B16666;
-            }
-            
-            thead {
-              display: none;
-            }
-            
-            main > header {
-              width: 100%;
-              float: left;
-              margin-bottom: 1em;
-            }
-            
-            h1 {
-              float: left;
-            }
-            
-            h1, h2, .label {
-              font-size: 2.5em;
-              text-transform: uppercase;
-              font-weight: 300;
-              font-family: 'Open Sans', 'Helvetica Neue', 'Helvetica', 'Lato', 'sans-serif'
-            }
-            
-            #contact {
-             clear: both;
-             float: right;
-             margin-top: 2px;
-            }
-            
-            #contact span + span {
-              margin-left: 10px;
-            }
-            
-            header > span.fa {
-              text-align: center;
-              margin-right: 3px;
-              position: absolute;
-              width: 40px;
-              top: 14px;
-              font-size: 30px;
-              /*transform: translateX(-110%); PDF no likey */
-              margin-left: -50px;
-              color: #DADADA;
-            }
-            
-            .label {
-              float: right;
-              color: #DADADA;
-            }
-            
-            #summary {
-              color: #717171;
-              font-size: 1.25em;
-              margin-top: 6em;
-            }
-            
-            #skills td {
-              padding-top: 7px;
-              padding-bottom: 7px;
-            }
-            
-            #references > p, #references > p > a {
-              color: #961e1e;
-              text-align: center;
-              margin: 30px;
-              font-weight: bold;
-              letter-spacing: 2px;
-              text-transform: uppercase;
-            }
+            /*   
+ * Template Name: Orbit - Responsive Resume/CV Template for Developers
+ * Version: 1.0
+ * Author: Xiaoying Riley
+ * Twitter: @3rdwave_themes
+ * License: Creative Commons Attribution 3.0 License
+ * Website: http://themes.3rdwavemedia.com/
+*/
+/* styles.css */
+/* ======= Base ======= */
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #545E6C;
+  background: #f5f5f5;
+  font-size: 14px;
+  padding: 30px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+a {
+  color: #2d7788;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+}
+a:hover {
+  text-decoration: underline;
+  color: #1a454f;
+}
+a:focus {
+  text-decoration: none;
+}
+p {
+  line-height: 1.5;
+}
+.wrapper {
+  background: #42A8C0;
+  max-width: 960px;
+  margin: 0 auto;
+  position: relative;
+  -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+.sidebar-wrapper {
+  background: #42A8C0;
+  position: absolute;
+  right: 0;
+  width: 240px;
+  height: 100%;
+  min-height: 800px;
+  color: #fff;
+}
+.sidebar-wrapper a {
+  color: #fff;
+}
+.sidebar-wrapper .profile-container {
+  padding: 30px;
+  background: rgba(0, 0, 0, 0.2);
+  text-align: center;
+  color: #fff;
+}
+.sidebar-wrapper .name {
+  font-size: 32px;
+  font-weight: 900;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.sidebar-wrapper .tagline {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.sidebar-wrapper .profile {
+  margin-bottom: 15px;
+  max-width: 180px;
+  border-radius: 50%;
+}
+.sidebar-wrapper .contact-list .fa {
+  margin-right: 5px;
+  font-size: 18px;
+  vertical-align: middle;
+}
+.sidebar-wrapper .contact-list li {
+  margin-bottom: 15px;
+}
+.sidebar-wrapper .contact-list li:last-child {
+  margin-bottom: 0;
+}
+.sidebar-wrapper .contact-list .email .fa {
+  font-size: 14px;
+}
+.sidebar-wrapper .container-block {
+  padding: 30px;
+}
+.sidebar-wrapper .container-block-title {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+.sidebar-wrapper .degree {
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+.sidebar-wrapper .education-container .item {
+  margin-bottom: 15px;
+}
+.sidebar-wrapper .education-container .item:last-child {
+  margin-bottom: 0;
+}
+.sidebar-wrapper .education-container .meta {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 500;
+  margin-bottom: 0px;
+  margin-top: 0;
+}
+.sidebar-wrapper .education-container .time {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+.sidebar-wrapper .languages-container .lang-desc {
+  color: rgba(255, 255, 255, 0.6);
+}
+.sidebar-wrapper .languages-list {
+  margin-bottom: 0;
+}
+.sidebar-wrapper .languages-list li {
+  margin-bottom: 10px;
+}
+.sidebar-wrapper .languages-list li:last-child {
+  margin-bottom: 0;
+}
+.sidebar-wrapper .interests-list {
+  margin-bottom: 0;
+}
+.sidebar-wrapper .interests-list li {
+  margin-bottom: 10px;
+}
+.sidebar-wrapper .interests-list li:last-child {
+  margin-bottom: 0;
+}
+.main-wrapper {
+  background: #fff;
+  padding: 60px;
+  padding-right: 300px;
+  min-height: 800px;
+}
+.main-wrapper .section-title {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 500;
+  color: #2d7788;
+  position: relative;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.main-wrapper .section-title .fa {
+  width: 30px;
+  height: 30px;
+  margin-right: 8px;
+  display: inline-block;
+  color: #fff;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  background: #2d7788;
+  text-align: center;
+  padding-top: 8px;
+  font-size: 16px;
+  position: relative;
+  top: -2px;
+}
+.main-wrapper .section {
+  margin-bottom: 60px;
+}
+.main-wrapper .experiences-section .item {
+  margin-bottom: 30px;
+}
+.main-wrapper .upper-row {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 2px;
+}
+.main-wrapper .job-title {
+  color: #3F4650;
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 500;
+}
+.main-wrapper .time {
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: #97AAC3;
+}
+.main-wrapper .company {
+  margin-bottom: 10px;
+  color: #97AAC3;
+}
+.main-wrapper .project-title {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+.main-wrapper .projects-section .intro {
+  margin-bottom: 30px;
+}
+.main-wrapper .projects-section .item {
+  margin-bottom: 15px;
+}
+.skillset .item {
+  margin-bottom: 15px;
+  overflow: hidden;
+  height: 3.5em;
+}
+.skillset .item ul {
+  float: left;
+  padding-left: 0px;
+}
+.skillset .item ul li {
+  display: inline-block;
+  background: #f5f5f5;
+  color: #42A8C0;
+  font-size: 0.9em;
+  padding: 5px;
+  border: 1px solid #42A8C0;
+  border-radius: 5px;
+  margin-top: 5px;
+  text-align: center;
+}
+.skillset .level-title {
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+.skillset .level-bar {
+  height: 12px;
+  background: #f5f5f5;
+}
+.skillset .level-bar-inner {
+  height: 12px;
+  background: #7bc2d3;
+}
+.footer {
+  padding: 30px;
+  padding-top: 60px;
+}
+.footer .copyright {
+  line-height: 1.6;
+  color: #545E6C;
+  font-size: 13px;
+}
+.footer .fa-heart {
+  color: #fb866a;
+}
+/* Extra small devices (phones, less than 768px) */
+@media (max-width: 767px) {
+  .sidebar-wrapper {
+    position: static;
+    width: inherit;
+  }
+  .main-wrapper {
+    padding: 30px;
+  }
+  .main-wrapper .time {
+    position: static;
+    display: block;
+    margin-top: 5px;
+  }
+  .main-wrapper .upper-row {
+    margin-bottom: 0;
+  }
+}
+/* Small devices (tablets, 768px and up) */
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .skillset .level-title {
+    display: inline-block;
+    float: left;
+    width: 30%;
+    margin-bottom: 0;
+  }
+  .skillset .level-bar {
+    display: inline-block;
+    width: 70%;
+    float: left;
+    position: relative;
+    top: 1px;
+  }
+}
+/* Large devices (large desktops, 1200px and up) */
+/* Ex-Large devices (large desktops, 1200px and up) */
         </style>
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements
+        and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+            <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
     </head>
     
     <body>
-        <main>
-            <header>
-                 <h1>Tom <span style="color: #C00000;">D'Roza</span></h1> <span class="label">Scrum Master / Team Lead at BJSS</span>
-                <p id="contact"></p>
-            </header>
-            <section id="summary">Tom is a highly motivated individual with excellent technical and communication
-                skills. An advocate of Agile development methodologies, Tom is an experienced
-                professional software developer and technical team lead. His career spans
-                twenty years in fields that include Healthcare, Commoditites Trading, Enterprise
-                Web, Mobile and Location Based Services.</section>
-            <hr>
-            <section id="skills">
-                <header> <span class="fa fa-lg fa-code"></span> 
-                     <h2>skills</h2>
+        <div class="wrapper">
+            <div class="sidebar-wrapper">
+                <div class="profile-container">
+                    <img class="profile" src="https://gravatar.com/avatar/9446f5a21bc9fd7d366dc5517d2df4e6?s=250"
+                    alt="profile picture" />
+                     <h1 class="name">Tom D&#x27;Roza</h1>
 
-                </header>
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Skill</th>
-                            <th>Keywords</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td style="width: 25%;">Scrum Master</td>
-                            <td class="keywords">estimation sprint planning stand-ups retrospectives kanban scrum</td>
-                        </tr>
-                        <tr>
-                            <td style="width: 25%;">Back-end development</td>
-                            <td class="keywords">java junit test-ng spring hibernate</td>
-                        </tr>
-                        <tr>
-                            <td style="width: 25%;">Front-end development</td>
-                            <td class="keywords">html css sass php javascript angular JS</td>
-                        </tr>
-                        <tr>
-                            <td style="width: 25%;">Databases</td>
-                            <td class="keywords">postgresql mysql</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </section>
-            <hr>
-            <section id="employment">
-                <header> <span class="fa fa-lg fa-building"></span> 
-                     <h2>employment</h2>
+                     <h3 class="tagline">Scrum Master / Team Lead at BJSS</h3>
 
-                </header>
-                <div>
-                     <h3><em>Scrum Master</em>,
+                </div>
+                <!--//profile-container-->
+                <div class="contact-container container-block">
+                    <ul class="list-unstyled contact-list">
+                        <li class="twitter"><i class="fa fa-twitter"></i><a href="https://twitter.com/tdroza" target="_blank">twitter.com/tdroza</a>
+                        </li>
+                        <li class="github"><i class="fa fa-github"></i><a href="https://github.com/tdroza" target="_blank">github.com/tdroza</a>
+                        </li>
+                        <li class="flickr"><i class="fa fa-flickr"></i><a href="https://flickr.com/photos/tdroza"
+                            target="_blank">flickr.com/photos/tdroza</a>
+                        </li>
+                        <li class="youtube"><i class="fa fa-youtube"></i><a href="https://youtube.com/user/tdroza"
+                            target="_blank">youtube.com/user/tdroza</a>
+                        </li>
+                    </ul>
+                </div>
+                <!--//contact-container-->
+                <div class="education-container container-block">
+                     <h2 class="container-block-title">Education</h2>
 
-              <a href="https://bjss.com/">BJSS. Client: National Healthcare Provider</a>
+                    <div class="item">
+                         <h4 class="degree">GCSE in Italian</h4>
 
-              </h3> <span class="tenure">2013-05 — Present</span> <span class="location">Leeds, West Yorkshire, UK</span>
-                    <p>
-                        <p>Initially involved in analysis of an existing proprietary legacy application
+                         <h5 class="meta">Suffolk College</h5>
+
+                        <div class="time">2003 - 2004</div>
+                    </div>
+                    <!--//item-->
+                    <div class="item">
+                         <h4 class="degree">BSc (Hons) in Computer Science, Artificial Intelligence and Psychology</h4>
+
+                         <h5 class="meta">University of Nottingham</h5>
+
+                        <div class="time">1996 - 1999</div>
+                    </div>
+                    <!--//item-->
+                    <div class="item">
+                         <h4 class="degree">A-Level in Maths, English, Computing, General Studies; AS-Level Further Maths</h4>
+
+                         <h5 class="meta">Sheffield College, Norton Centre</h5>
+
+                        <div class="time">1994 - 1996</div>
+                    </div>
+                    <!--//item-->
+                    <div class="item">
+                         <h4 class="degree">GCSE in Maths, English, French, Science (x2), Business Studies, IT, Humanities</h4>
+
+                         <h5 class="meta">Abbeydale Grange School, Sheffield</h5>
+
+                        <div class="time">1994 - 1990</div>
+                    </div>
+                    <!--//item-->
+                </div>
+                <!--//education-container-->
+                <div class="interests-container container-block">
+                     <h2 class="container-block-title">Interests</h2>
+
+                    <ul class="list-unstyled interests-list">
+                        <li>Photography</li>
+                        <li>Home Automation &amp; Smart Home</li>
+                        <li>Music</li>
+                        <li>Formula 1</li>
+                    </ul>
+                </div>
+                <!--//interests-->
+            </div>
+            <!--//sidebar-wrapper-->
+            <div class="main-wrapper">
+                <section class="section summary-section">
+                     <h2 class="section-title"><i class="fa fa-user"></i>Personal Summary</h2>
+
+                    <div class="summary">
+                        <p>Tom is a highly motivated individual with excellent technical and communication
+                            skills. An advocate of Agile development methodologies, Tom is an experienced
+                            professional software developer and technical team lead. His career spans
+                            twenty years in fields that include Healthcare, Commoditites Trading, Enterprise
+                            Web, Mobile and Location Based Services.</p>
+                    </div>
+                    <!--//summary-->
+                </section>
+                <!--//section-->
+                <section class="section experiences-section">
+                     <h2 class="section-title"><i class="fa fa-briefcase"></i>Work Experience</h2>
+
+                    <div class="item">
+                        <div class="meta">
+                            <div class="upper-row">
+                                 <h3 class="job-title">Scrum Master</h3>
+
+                                <div class="time">2013 - Present</div>
+                            </div>
+                            <!--//upper-row-->
+                            <div class="company"><a href="https://bjss.com/" target="_blank">BJSS. Client: National Healthcare Provider</a>
+                            </div>
+                        </div>
+                        <!--//meta-->
+                        <div class="details">Initially involved in analysis of an existing proprietary legacy application
                             and bid preparation prior to succesfully winning the contract for a functionally
                             equivalent replacement built on Open Source technologies. Tom&#39;s role
                             involved 2-week on-site pre-elaboration phase focussing on examination
@@ -299,30 +468,30 @@
                             required close teamwork with the Principal and Technical Architects to
                             refine and agree the project&#39;s code structure and key design patterns
                             around separation of tiers, REST APIs, database transactions and audit,
-                            module structure and coding standards.
-                            <p/>Currently Tom&#39;s role is as a technical lead and Scrum Master for an
-                            end-to-end development team of 10 to 12 people including a Business Analyst,
-                            Developers, Functional Testers and Automation Engineers. Tom&#39;s day-to-day
-                            activities include running of daily stand-ups, sprint planning, code reviews
-                            and retrospectives. He is responsible for sprint delivery and code quality
-                            as well as longer term objectives including knowledge sharing, documentation
-                            and upskilling of the team.</p>
-                    </p>
-                    <ul>
-                        <li>Analysis of legacy application</li>
-                        <li>Successful bid for new work</li>
-                        <li>Elaboration</li>
-                        <li>Team lead</li>
-                    </ul> <span class="keywords">Agile Scrum Java Web Javascript AngularJS Git Quality REST API </span>
-                </div>
-                <div>
-                     <h3><em>Software Engineer</em>,
+                            module structure and coding standards.&lt;p/&gt;Currently Tom&#39;s role
+                            is as a technical lead and Scrum Master for an end-to-end development team
+                            of 10 to 12 people including a Business Analyst, Developers, Functional
+                            Testers and Automation Engineers. Tom&#39;s day-to-day activities include
+                            running of daily stand-ups, sprint planning, code reviews and retrospectives.
+                            He is responsible for sprint delivery and code quality as well as longer
+                            term objectives including knowledge sharing, documentation and upskilling
+                            of the team.</div>
+                        <!--//details-->
+                    </div>
+                    <!--//item-->
+                    <div class="item">
+                        <div class="meta">
+                            <div class="upper-row">
+                                 <h3 class="job-title">Software Engineer</h3>
 
-              <a href="https://bjss.com/">BJSS. Client: International Commodities Trader</a>
-
-              </h3> <span class="tenure">2012-12 — 2013-05</span> <span class="location">Leeds, West Yorkshire, United Kingdom</span>
-                    <p>
-                        <p>Tom joined this project as a software engineer during its final phase
+                                <div class="time">2012 - 2013</div>
+                            </div>
+                            <!--//upper-row-->
+                            <div class="company"><a href="https://bjss.com/" target="_blank">BJSS. Client: International Commodities Trader</a>
+                            </div>
+                        </div>
+                        <!--//meta-->
+                        <div class="details">Tom joined this project as a software engineer during its final phase
                             to assist with completing the functional development and bug fixing in
                             preparation for a parallel run prior to go-live, where the new application
                             was trialed alongside the existing legacy application. The role required
@@ -331,21 +500,23 @@
                             productively to project. Key challenges included working as part of a large
                             team spread over multiple locations and a number of different suppliers,
                             often poorly defined or with changing requirements and complex domain knowledge
-                            around commodities trading and invoicing.</p>
-                    </p>
-                    <ul>
-                        <li>Scala</li>
-                        <li>Developer</li>
-                    </ul> <span class="keywords">Scala Ruby C# </span>
-                </div>
-                <div>
-                     <h3><em>Software Engineer</em>,
+                            around commodities trading and invoicing.</div>
+                        <!--//details-->
+                    </div>
+                    <!--//item-->
+                    <div class="item">
+                        <div class="meta">
+                            <div class="upper-row">
+                                 <h3 class="job-title">Software Engineer</h3>
 
-              <a href="https://bjss.com/">BJSS. Client: International Commodities Trader</a>
-
-              </h3> <span class="tenure">2012-12 — 2013-05</span> <span class="location">Leeds, West Yorkshire, United Kingdom</span>
-                    <p>
-                        <p>Responsible for the delivery of software components that receive events
+                                <div class="time">2012 - 2013</div>
+                            </div>
+                            <!--//upper-row-->
+                            <div class="company"><a href="https://bjss.com/" target="_blank">BJSS. Client: International Commodities Trader</a>
+                            </div>
+                        </div>
+                        <!--//meta-->
+                        <div class="details">Responsible for the delivery of software components that receive events
                             from other work streams to trigger the generation of cost items for Interest,
                             Warehouse Rent, Transportation and Valuations. Costs are displayed to traders
                             as a key tool to manage profit/loss. The application is a large scale distributed
@@ -353,45 +524,51 @@
                             Tom’s main development role focused on Scala and he adapted quickly to
                             a new programming language, demonstrating an ability to &#39;hit the ground
                             running&#39; and make a valuable contribution to functionality, unit and
-                            component testing.</p>
-                    </p>
-                    <ul>
-                        <li>Scala</li>
-                        <li>Java</li>
-                    </ul> <span class="keywords">Scala Java Ruby </span>
-                </div>
-                <div>
-                     <h3><em>Lead Software Engineer</em>,
+                            component testing.</div>
+                        <!--//details-->
+                    </div>
+                    <!--//item-->
+                    <div class="item">
+                        <div class="meta">
+                            <div class="upper-row">
+                                 <h3 class="job-title">Lead Software Engineer</h3>
 
-              <a href="https://bt.com/">BT.com</a>
+                                <div class="time">2009 - 2011</div>
+                            </div>
+                            <!--//upper-row-->
+                            <div class="company"><a href="https://bt.com/" target="_blank">BT.com</a>
+                            </div>
+                        </div>
+                        <!--//meta-->
+                        <div class="details">
+                            <p>Lead developer on BT.com eCommerce platform; Projects include the development
+                                of the Google powered search results page (using XML/XSLT and Zeus traffic
+                                manager) for BT Internet users, which receives over 1 million hits per
+                                day and generates significant advertising revenue; Strong emphasis on performance
+                                and stability. Key member of team working on complete redesign of the retail
+                                consumer MyAccount homepage and successfully delivered a new online order
+                                tracking application resulting in 30% improvement in successfully tracked
+                                orders, and 1000 fewer helpdesk calls per week.
+                                <br>Leading a small on-shore development team as an exemplar of how a test
+                                driven, agile development methodology, coupled with experienced, skilled
+                                developers, can result in better quality deliveries.</p>
+                        </div>
+                        <!--//details-->
+                    </div>
+                    <!--//item-->
+                    <div class="item">
+                        <div class="meta">
+                            <div class="upper-row">
+                                 <h3 class="job-title">Lead Software Engineer</h3>
 
-              </h3> <span class="tenure">2009-04 — 2011-07</span> <span class="location">Martlesham, Ipswich, Suffolk, UK</span>
-                    <p>
-                        <p>Lead developer on BT.com eCommerce platform; Projects include the development
-                            of the Google powered search results page (using XML/XSLT and Zeus traffic
-                            manager) for BT Internet users, which receives over 1 million hits per
-                            day and generates significant advertising revenue; Strong emphasis on performance
-                            and stability. Key member of team working on complete redesign of the retail
-                            consumer MyAccount homepage and successfully delivered a new online order
-                            tracking application resulting in 30% improvement in successfully tracked
-                            orders, and 1000 fewer helpdesk calls per week. Leading a small on-shore
-                            development team as an exemplar of how a test driven, agile development
-                            methodology, coupled with experienced, skilled developers, can result in
-                            better quality deliveries.</p>
-                    </p>
-                    <ul>
-                        <li>XML</li>
-                        <li>XSLT</li>
-                    </ul> <span class="keywords">XML XSLT Web Google </span>
-                </div>
-                <div>
-                     <h3><em>Lead Software Engineer</em>,
-
-              <a href="https://bt.com/">BT</a>
-
-              </h3> <span class="tenure">2008-01 — 2009-04</span> <span class="location">Martlesham, Ipswich, Suffolk, UK</span>
-                    <p>
-                        <p>Lead developer for the BT.com Beta platform. Role involved design assurance,
+                                <div class="time">2008 - 2009</div>
+                            </div>
+                            <!--//upper-row-->
+                            <div class="company"><a href="https://bt.com/" target="_blank">BT</a>
+                            </div>
+                        </div>
+                        <!--//meta-->
+                        <div class="details">Lead developer for the BT.com Beta platform. Role involved design assurance,
                             review and sign-off of designs and test plans, and technical leadership
                             of development team. Striving to introduce an element of innovation into
                             BT&#39;s online presence by launching new self-service applications in
@@ -400,21 +577,23 @@
                             identified and reworked or “fail fast” thereby minimising wasted development
                             expense. Tom led a small team of 3 developers to create a gadget framework
                             based around the open source Apache Shindig project for use as a personalised
-                            portal for the top 15 BT Wholesale customers.</p>
-                    </p>
-                    <ul>
-                        <li>JQuery</li>
-                        <li>Java</li>
-                    </ul> <span class="keywords">Javascript JQuery Java </span>
-                </div>
-                <div>
-                     <h3><em>J2EE Software Engineer</em>,
+                            portal for the top 15 BT Wholesale customers.</div>
+                        <!--//details-->
+                    </div>
+                    <!--//item-->
+                    <div class="item">
+                        <div class="meta">
+                            <div class="upper-row">
+                                 <h3 class="job-title">J2EE Software Engineer</h3>
 
-              <a href="https://bt.com/">BT</a>
-
-              </h3> <span class="tenure">2005-12 — 2007-12</span> <span class="location">Martlesham, Ipswich, Suffolk, UK</span>
-                    <p>
-                        <p>J2EE developer on BT.com Beta. Focusing on innovative new applications
+                                <div class="time">2005 - 2007</div>
+                            </div>
+                            <!--//upper-row-->
+                            <div class="company"><a href="https://bt.com/" target="_blank">BT</a>
+                            </div>
+                        </div>
+                        <!--//meta-->
+                        <div class="details">J2EE developer on BT.com Beta. Focusing on innovative new applications
                             heavily influenced by emerging Web2.0 technologies and following Agile
                             Delivery work practices. Responsibilities included rapid turnaround of
                             prototypes, proof-of-concepts, high-level design, implementation, and close
@@ -424,40 +603,43 @@
                             weekly checkpoints. Particular focus on developing new applications around:
                             Google Maps; Ajax, Widgets/Gadgets (iGoogle); 3rd party data APIs (ReST,
                             XML, JSON) and Javascript frameworks (Jquery, prototype, scriptaculous
-                            etc).</p>
-                    </p>
-                    <ul>
-                        <li>JQuery</li>
-                        <li>Google Maps</li>
-                        <li>Agile</li>
-                    </ul> <span class="keywords">Google Maps Javascript JQuery Agile </span>
-                </div>
-                <div>
-                     <h3><em>J2EE Software Engineer</em>,
+                            etc).</div>
+                        <!--//details-->
+                    </div>
+                    <!--//item-->
+                    <div class="item">
+                        <div class="meta">
+                            <div class="upper-row">
+                                 <h3 class="job-title">J2EE Software Engineer</h3>
 
-              <a href="https://bt.com/">BT</a>
-
-              </h3> <span class="tenure">2003-04 — 2005-12</span> <span class="location">Martlesham, Ipswich, Suffolk, UK</span>
-                    <p>
-                        <p>Rewriting key consumer web applications for new WebLogic Portal platform.
+                                <div class="time">2003 - 2005</div>
+                            </div>
+                            <!--//upper-row-->
+                            <div class="company"><a href="https://bt.com/" target="_blank">BT</a>
+                            </div>
+                        </div>
+                        <!--//meta-->
+                        <div class="details">Rewriting key consumer web applications for new WebLogic Portal platform.
                             Release 1: worked on Access Control, focussing on Login &amp; Registration.
                             Responsible for implementation of key components of the website security.
                             Release 2: Worked on Products &amp; Services webapp, responsible for implementation
-                            of key back-end EJB components.</p>
-                    </p>
-                    <ul>
-                        <li>Weblogic</li>
-                        <li>Access control</li>
-                    </ul> <span class="keywords">Location based services Satellite SMS mobile </span>
-                </div>
-                <div>
-                     <h3><em>Developer</em>,
+                            of key back-end EJB components.</div>
+                        <!--//details-->
+                    </div>
+                    <!--//item-->
+                    <div class="item">
+                        <div class="meta">
+                            <div class="upper-row">
+                                 <h3 class="job-title">Developer</h3>
 
-              <a href="https://bt.com/">BT</a>
-
-              </h3> <span class="tenure">1999-07 — 2003-04</span>
-                    <p>
-                        <p>Joined BT, working on Webtrack, a web based fleet management and tracking
+                                <div class="time">1999 - 2003</div>
+                            </div>
+                            <!--//upper-row-->
+                            <div class="company"><a href="https://bt.com/" target="_blank">BT</a>
+                            </div>
+                        </div>
+                        <!--//meta-->
+                        <div class="details">Joined BT, working on Webtrack, a web based fleet management and tracking
                             application using GPS positioning and Inmarsat satellite/SMS messaging.
                             Writing comms applications and developing for mobile devices (Windows CE).
                             Responsible for creating a mobile application that was successfully trialled
@@ -465,54 +647,151 @@
                             SMS, personalisation and location, and resulting in an application prototype
                             that was delivered into the BT Brightstar incuband Rocking Frog for commercial
                             exploitation outside of BT. Performed customer contact role to Internal
-                            Ventures customer. Also supported external proposition development.</p>
-                    </p>
-                    <ul>
-                        <li>SMS</li>
-                        <li>mobile</li>
-                    </ul>
-                </div>
-            </section>
-            <hr>
-            <section id="education">
-                <header> <span class="fa fa-lg fa-mortar-board"></span> 
-                     <h2>education</h2>
+                            Ventures customer. Also supported external proposition development.</div>
+                        <!--//details-->
+                    </div>
+                    <!--//item-->
+                </section>
+                <!--//section-->
+                <section class="section experiences-section">
+                     <h2 class="section-title"><i class="fa fa-book"></i>Publications</h2>
 
-                </header>
-                <div>
-                     <h3>University of Nottingham</h3> <span class="tenure">1996-09 — 1999-06</span>
-                </div>
-                <div>
-                     <h3>Sheffield College, Norton Centre</h3> <span class="tenure">1994-09 — 1996-06</span>
-                </div>
-                <div>
-                     <h3>Suffolk College</h3> <span class="tenure">2003-09 — 2004-06</span>
-                </div>
-                <div>
-                     <h3>Abbeydale Grange School, Sheffield</h3> <span class="tenure">1994-09 — 1990-06</span>
-                </div>
-            </section>
-            <hr>
-            <section id="writing">
-                <header> <span class="fa fa-lg fa-pencil"></span> 
-                     <h2>writing</h2>
+                    <div class="item">
+                        <div class="meta">
+                            <div class="upper-row">
+                                 <h3 class="job-title"><a href="https://link.springer.com/article/10.1023%2FA%3A1022491825047" target="_blank">An Overview of Location-Based Services</a></h3>
 
-                </header>
-                <div>
-                     <h3><em><a href="https://link.springer.com/article/10.1023%2FA%3A1022491825047">An Overview of Location-Based Services</a></em>,
+                                <div class="time">2003</div>
+                            </div>
+                            <!--//upper-row-->
+                            <div class="company">BT Technology Journal</div>
+                        </div>
+                        <!--//meta-->
+                        <div class="details">This paper provides an overview of terms, technologies and standards used
+                            within the location-based services field in the determination and presentation
+                            of the location of an entity. A description is provided of data formats
+                            and protocols for communicating, storing and manipulating location information
+                            and some insight is given into how location information could be used in
+                            a range of applications.</div>
+                        <!--//details-->
+                    </div>
+                    <!--//item-->
+                </section>
+                <!--//section-->
+                <section class="skills-section section">
+                     <h2 class="section-title"><i class="fa fa-rocket"></i>Skills &amp; Proficiency</h2>
 
-      
+                    <div class="skillset">
+                        <div class="item">
+                             <h3 class="level-title">Scrum Master</h3>
 
-            BT Technology Journal</h3> <span class="tenure">2003</span>
-                    <p>This paper provides an overview of terms, technologies and standards used
-                        within the location-based services field in the determination and presentation
-                        of the location of an entity. A description is provided of data formats
-                        and protocols for communicating, storing and manipulating location information
-                        and some insight is given into how location information could be used in
-                        a range of applications.</p>
-                </div>
-            </section>
-        </main>
+                            <div class="level-bar">
+                                <div class="level-bar-inner" data-level="75%"></div>
+                                <ul>
+                                    <li>estimation</li>
+                                    <li>sprint planning</li>
+                                    <li>stand-ups</li>
+                                    <li>retrospectives</li>
+                                    <li>kanban</li>
+                                    <li>scrum</li>
+                                </ul>
+                            </div>
+                            <!--//level-bar-->
+                        </div>
+                        <!--//item-->
+                        <div class="item">
+                             <h3 class="level-title">Back-end development</h3>
+
+                            <div class="level-bar">
+                                <div class="level-bar-inner" data-level="75%"></div>
+                                <ul>
+                                    <li>java</li>
+                                    <li>junit</li>
+                                    <li>test-ng</li>
+                                    <li>spring</li>
+                                    <li>hibernate</li>
+                                </ul>
+                            </div>
+                            <!--//level-bar-->
+                        </div>
+                        <!--//item-->
+                        <div class="item">
+                             <h3 class="level-title">Front-end development</h3>
+
+                            <div class="level-bar">
+                                <div class="level-bar-inner" data-level="50%"></div>
+                                <ul>
+                                    <li>html</li>
+                                    <li>css</li>
+                                    <li>sass</li>
+                                    <li>php</li>
+                                    <li>javascript</li>
+                                    <li>angular JS</li>
+                                </ul>
+                            </div>
+                            <!--//level-bar-->
+                        </div>
+                        <!--//item-->
+                        <div class="item">
+                             <h3 class="level-title">Databases</h3>
+
+                            <div class="level-bar">
+                                <div class="level-bar-inner" data-level="50%"></div>
+                                <ul>
+                                    <li>postgresql</li>
+                                    <li>mysql</li>
+                                </ul>
+                            </div>
+                            <!--//level-bar-->
+                        </div>
+                        <!--//item-->
+                    </div>
+                </section>
+                <!--//skills-section-->
+            </div>
+            <!--//main-body-->
+        </div>
+        <footer class="footer">
+            <div class="text-center">
+                <!--/* This template is released under the Creative Commons Attribution
+                3.0 License. Please keep the attribution link below when using for your
+                own project. Thank you for your support. :) If you'd like to use the template
+                without the attribution, you can check out other license options via our
+                website: themes.3rdwavemedia.com */--> <small class="copyright">Designed with <i class="fa fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
+
+            </div>
+            <!--//container-->
+        </footer>
+        <!--//footer-->
+        <!-- Javascript -->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+        <!-- custom js -->
+        <script type="text/javascript">
+            jQuery(document).ready(function($) {
+
+
+    /*======= Skillset *=======*/
+    
+    
+    $('.level-bar-inner').css('width', '0');
+    
+    $('.level-bar-inner').each(function() {
+
+        var itemWidth = $(this).data('level');
+
+        $(this).animate({
+            width: itemWidth
+        }, 800);
+
+    });
+
+    
+
+});
+        </script>
     </body>
 
 </html>
