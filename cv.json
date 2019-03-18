@@ -5,7 +5,9 @@
     "image": "https://gravatar.com/avatar/9446f5a21bc9fd7d366dc5517d2df4e6?s=250",
     "brief": "Tom is a highly motivated individual with excellent technical and communication skills. An advocate of Agile development methodologies, Tom is an experienced professional software developer and technical team lead. His career spans twenty years in fields that include Healthcare, Commoditites Trading, Enterprise Web, Mobile and Location Based Services."
   },
-  "contact": {},
+  "contact": {
+    "website": "http://happycampervanning.com"    
+  },
   "meta": {
     "format": "FRESH@^1.0.0-beta",
     "modified": "2019-03-02T117:15:24.985Z"
@@ -289,7 +291,7 @@
     {
       "label": "YouTube",
       "network": "YouTube",
-      "url": "https://youtube.com/user/tdroza",
+      ociurl": "https://youtube.com/user/tdroza",
       "user": "tdroza"
     }
   ],
