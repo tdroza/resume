@@ -291,7 +291,7 @@
     {
       "label": "YouTube",
       "network": "YouTube",
-      ociurl": "https://youtube.com/user/tdroza",
+      "url": "https://youtube.com/user/tdroza",
       "user": "tdroza"
     }
   ],
