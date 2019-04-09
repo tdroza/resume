@@ -16,6 +16,10 @@ jQuery(document).ready(function($) {
 
     });
 
-    
+    $('.interests-container ul li').click(
+        function(elem) {
+            console.log("Click!");
+            $(this).children().slideToggle();
+    });    
 
 });

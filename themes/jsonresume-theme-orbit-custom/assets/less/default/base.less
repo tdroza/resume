@@ -146,8 +146,15 @@ p {
     
     .interests-list {
         margin-bottom: 0;
-        li {
+        > li {
+            cursor:pointer;
             margin-bottom: 10px;
+            ul {
+                display: none;
+            }
+            &:hover {
+                text-decoration: underline;
+            }
             &:last-child {
                 margin-bottom: 0;
             }

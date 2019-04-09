@@ -148,10 +148,17 @@ p {
 .sidebar-wrapper .interests-list {
   margin-bottom: 0;
 }
-.sidebar-wrapper .interests-list li {
+.sidebar-wrapper .interests-list > li {
+  cursor: pointer;
   margin-bottom: 10px;
 }
-.sidebar-wrapper .interests-list li:last-child {
+.sidebar-wrapper .interests-list > li ul {
+  display: none;
+}
+.sidebar-wrapper .interests-list > li:hover {
+  text-decoration: underline;
+}
+.sidebar-wrapper .interests-list > li:last-child {
   margin-bottom: 0;
 }
 .main-wrapper {

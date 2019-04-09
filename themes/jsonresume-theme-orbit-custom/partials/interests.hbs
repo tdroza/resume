@@ -3,7 +3,12 @@
         <h2 class="container-block-title">Interests</h2>
         <ul class="list-unstyled interests-list">
             {{#resume.interests}}
-                <li>{{name}}</li>
+                <li>
+                {{name}}
+                    <ul>
+                        <li>{{summary}}</li>
+                    </ul>
+                </li>
             {{/resume.interests}}
         </ul>
     </div><!--//interests-->
