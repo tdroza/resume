@@ -316,10 +316,10 @@
       ]
     },
     {
-      "name": "Home Automation & Smart Home",
-      "summary": "My interest in Home Automation started over 10 years ago with X10 devices, but more recently has focused on smart lighting, voice controlled home assistants, heating, network cameras whole house audio and making this all play nicely together in a user-friendly way",
+      "name": "Home Automation & Internet of Things (IoT)",
+      "summary": "My interest in Home Automation started over 10 years ago with X10 devices, but more recently has focused on smart lighting, heating, network cameras, whole house audio and voice controlled home assistants making this all play nicely together in a user-friendly way. Recently I have been building ESP8266 WiFi devices to monitor temperature, humidity and air quality around my home.",
       "keywords": [
-        "ha, home automation, smarhome, smart, home"
+        "ha, home automation, smarhome, smart, home, iot, esp8266"
       ]
     },
     {
