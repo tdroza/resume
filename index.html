@@ -172,10 +172,17 @@ p {
 .sidebar-wrapper .interests-list {
   margin-bottom: 0;
 }
-.sidebar-wrapper .interests-list li {
+.sidebar-wrapper .interests-list > li {
+  cursor: pointer;
   margin-bottom: 10px;
 }
-.sidebar-wrapper .interests-list li:last-child {
+.sidebar-wrapper .interests-list > li ul {
+  display: none;
+}
+.sidebar-wrapper .interests-list > li:hover {
+  text-decoration: underline;
+}
+.sidebar-wrapper .interests-list > li:last-child {
   margin-bottom: 0;
 }
 .main-wrapper {
@@ -415,11 +422,48 @@ p {
                      <h2 class="container-block-title">Interests</h2>
 
                     <ul class="list-unstyled interests-list">
-                        <li>Photography</li>
-                        <li>Home Automation &amp; Internet of Things (IoT)</li>
-                        <li>Music</li>
-                        <li>Formula 1</li>
-                        <li>Camping</li>
+                        <li>Photography
+                            <ul>
+                                <li>I have an interest in photography and have run a photo competition at
+                                    work for the last 6 years.</li>
+                            </ul>
+                        </li>
+                        <li>Home Automation &amp; Internet of Things (IoT)
+                            <ul>
+                                <li>My interest in Home Automation started over 10 years ago with X10 devices,
+                                    but more recently has focused on smart lighting, heating, network cameras,
+                                    whole house audio and voice controlled home assistants making this all
+                                    play nicely together in a user-friendly way. Recently I have been building
+                                    ESP8266 WiFi devices to monitor temperature, humidity and air quality around
+                                    my home.</li>
+                            </ul>
+                        </li>
+                        <li>Music
+                            <ul>
+                                <li>There&#x27;s always music playing at home or in the car or on my commute.
+                                    Music can either help me to relax, or help me to focus. It can block out
+                                    the outside world or be used to remind me of an event or time from my past.
+                                    I don&#x27;t play any instruments, but recently bought a keyboard so one
+                                    day might be able to play chopsticks!</li>
+                            </ul>
+                        </li>
+                        <li>Formula 1
+                            <ul>
+                                <li>I have been an avid follower of F1 since the early nineties, mostly as
+                                    a television spectator but in the last few years have been to a pre-season
+                                    test (Circuit de Catalunya, Barcelona) and a race (Spa-Francorchamps, Belgium)</li>
+                            </ul>
+                        </li>
+                        <li>Camping
+                            <ul>
+                                <li>I previously owned an imported Japanese Mazda Bongo campervan and enjoyed
+                                    exploring the UK in it, but outgrew its size and it&#x27;s (un)reliability
+                                    meant I never dared travel beyond these shores. I&#x27;m now continuing
+                                    my camping adventures with a Camplet trailer-tent and have made two trips
+                                    to Europe so far (France and Belgium). I also run the HappyCampervanning
+                                    campsite review website as a writer, designer and administrator.</li>
+                            </ul>
+                        </li>
                     </ul>
                 </div>
                 <!--//interests-->
@@ -790,7 +834,11 @@ p {
 
     });
 
-    
+    $('.interests-container ul li').click(
+        function(elem) {
+            console.log("Click!");
+            $(this).children().slideToggle();
+    });    
 
 });
         </script>
