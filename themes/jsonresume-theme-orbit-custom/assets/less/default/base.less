@@ -144,19 +144,23 @@ p {
         }
     }
     
-    .interests-list {
+    ul.interests-list {
         margin-bottom: 0;
-        > li {
-            cursor:pointer;
+        >li {
             margin-bottom: 10px;
-            ul {
-                display: none;
-            }
             &:hover {
-                text-decoration: underline;
+                color: #b3dce6;
+                cursor:pointer;
             }
             &:last-child {
                 margin-bottom: 0;
+            }
+            div {
+                display: none;
+                font-style: italic;
+                padding-left: 5px;
+                border-left: 2px solid #b3dce6;
+                color: #ffffff;
             }
         }
     }
