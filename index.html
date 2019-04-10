@@ -143,19 +143,28 @@ p {
 .sidebar-wrapper .education-container .item {
   margin-bottom: 15px;
 }
+.sidebar-wrapper .education-container .item:hover {
+  cursor: pointer;
+}
 .sidebar-wrapper .education-container .item:last-child {
   margin-bottom: 0;
 }
-.sidebar-wrapper .education-container .meta {
+.sidebar-wrapper .education-container .item .time {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+.sidebar-wrapper .education-container .item .meta {
   color: rgba(255, 255, 255, 0.6);
   font-weight: 500;
   margin-bottom: 0px;
   margin-top: 0;
 }
-.sidebar-wrapper .education-container .time {
-  color: rgba(255, 255, 255, 0.6);
-  font-weight: 500;
-  margin-bottom: 0px;
+.sidebar-wrapper .education-container .item .grade {
+  display: none;
+  padding-left: 5px;
+  border-left: 2px solid rgba(255, 255, 255, 0.6);
+  font-style: italic;
 }
 .sidebar-wrapper .languages-container .lang-desc {
   color: rgba(255, 255, 255, 0.6);
@@ -176,7 +185,7 @@ p {
   margin-bottom: 10px;
 }
 .sidebar-wrapper ul.interests-list > li:hover {
-  color: #b3dce6;
+  color: rgba(255, 255, 255, 0.6);
   cursor: pointer;
 }
 .sidebar-wrapper ul.interests-list > li:last-child {
@@ -186,7 +195,7 @@ p {
   display: none;
   font-style: italic;
   padding-left: 5px;
-  border-left: 2px solid #b3dce6;
+  border-left: 2px solid rgba(255, 255, 255, 0.6);
   color: #ffffff;
 }
 .main-wrapper {
@@ -394,6 +403,7 @@ p {
                          <h5 class="meta">Suffolk College</h5>
 
                         <div class="time">2003 - 2004</div>
+                        <div class="grade">A</div>
                     </div>
                     <!--//item-->
                     <div class="item">
@@ -402,6 +412,7 @@ p {
                          <h5 class="meta">University of Nottingham</h5>
 
                         <div class="time">1996 - 1999</div>
+                        <div class="grade">2:1</div>
                     </div>
                     <!--//item-->
                     <div class="item">
@@ -410,6 +421,7 @@ p {
                          <h5 class="meta">Sheffield College, Norton Centre</h5>
 
                         <div class="time">1994 - 1996</div>
+                        <div class="grade">A, C, C...</div>
                     </div>
                     <!--//item-->
                     <div class="item">
@@ -418,6 +430,7 @@ p {
                          <h5 class="meta">Abbeydale Grange School, Sheffield</h5>
 
                         <div class="time">1994 - 1990</div>
+                        <div class="grade">8As, 2A*</div>
                     </div>
                     <!--//item-->
                 </div>
@@ -831,6 +844,11 @@ p {
     $('.interests-container > ul > li').click(
         function(elem) {
             $(this).children().slideToggle();
+    });    
+
+    $('.education-container .item').click(
+        function(elem) {
+            $(this).children('.grade').slideToggle();
     });    
 
 });
