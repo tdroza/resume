@@ -21,4 +21,9 @@ jQuery(document).ready(function($) {
             $(this).children().slideToggle();
     });    
 
+    $('.education-container .item').click(
+        function(elem) {
+            $(this).children('.grade').slideToggle();
+    });    
+
 });
