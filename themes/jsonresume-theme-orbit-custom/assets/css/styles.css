@@ -262,7 +262,6 @@ p {
 .skillset .item {
   margin-bottom: 15px;
   overflow: hidden;
-  height: 3.5em;
 }
 .skillset .item ul {
   float: left;
@@ -327,13 +326,12 @@ p {
 @media (min-width: 992px) {
   .skillset .level-title {
     display: inline-block;
-    float: left;
     width: 30%;
     margin-bottom: 0;
   }
   .skillset .level-bar {
     display: inline-block;
-    width: 70%;
+    width: 100%;
     float: left;
     position: relative;
     top: 1px;
