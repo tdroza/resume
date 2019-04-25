@@ -19,6 +19,7 @@ jQuery(document).ready(function($) {
     $('.interests-container > ul > li').click(
         function(elem) {
             $(this).children().slideToggle();
+            $(this).toggleClass('expanded');
     });    
 
     $('.education-container .item').click(

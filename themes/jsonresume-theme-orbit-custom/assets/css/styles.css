@@ -160,6 +160,14 @@ p {
 .sidebar-wrapper ul.interests-list > li {
   margin-bottom: 10px;
 }
+.sidebar-wrapper ul.interests-list > li:before {
+  content: '\f055';
+  font-family: FontAwesome;
+  margin-right: 5px;
+}
+.sidebar-wrapper ul.interests-list > li.expanded:before {
+  content: '\f056';
+}
 .sidebar-wrapper ul.interests-list > li:hover {
   color: rgba(255, 255, 255, 0.6);
   cursor: pointer;
@@ -171,6 +179,7 @@ p {
   display: none;
   font-style: italic;
   padding-left: 5px;
+  margin-left: 5px;
   border-left: 2px solid rgba(255, 255, 255, 0.6);
   color: #ffffff;
 }
