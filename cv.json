@@ -23,7 +23,7 @@
       {
 	"postition": "Tech Lead & Scrum Master",
         "employer": "BJSS. Client: National Healthcare Provider",
-	"summary": "",
+      	"summary": "Tom's role as Tech Lead and Scrum Master involved the day-to-day running of all 3 development teams (10 to 12 people per team), planning releases, and running of all sprint events (estimation, sprint planning, stand-ups, retrospectives), as well as setup and reporting of Jira workflows, dashboards kanbans and filters. This project delivered a critical benefit to Hospital Emergency departments helping them to manage their capacity in order to allieviate winter pressures and manage waiting times during the Covid-19 pandemic. The project was delivered to incredibly challenging timescales, moving from establishing a team in Sprint 0 to MVP release in 3 months. Key to Tom's role was coordinating the teams, ensuring the technical quality and prioritising necessary changes for the initial release.",
         "current": true,
         "start": "2020-08-04",
 	"end": "2021-03-31",
