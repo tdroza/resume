@@ -3,10 +3,7 @@
   "info": {
     "label": "Scrum Master / Team Lead at BJSS",
     "image": "https://gravatar.com/avatar/9446f5a21bc9fd7d366dc5517d2df4e6?s=250",
-    "brief": "Tom is a confident and highly motivated individual with excellent technical and communication skills. An advocate of Agile development methodologies, Tom is an experienced professional software developer and technical team lead. His career spans twenty years in fields that include Healthcare, Commoditites Trading, Enterprise Web, Mobile and Location Based Services."
-  },
-  "contact": {
-    "website": "http://happycampervanning.com"    
+    "brief": "Tom is a confident and highly motivated individual with excellent technical, organisational, and communication skills. An advocate of Agile development methodologies, Tom is an experienced professional software engineer and technical team lead. His career spans over twenty years in fields that include Healthcare, Commoditites Trading, Enterprise Web, Mobile and Location Based Services."
   },
   "meta": {
     "format": "FRESH@^1.0.0-beta",
@@ -26,7 +23,7 @@
       	"summary": "Tom's role as Tech Lead and Scrum Master involved the day-to-day running of all 3 development teams (10 to 12 people per team), planning releases, and running of all sprint events (estimation, sprint planning, stand-ups, retrospectives), as well as setup and reporting of Jira workflows, dashboards kanbans and filters. This project delivered a critical benefit to Hospital Emergency departments helping them to manage their capacity in order to allieviate winter pressures and manage waiting times during the Covid-19 pandemic. The project was delivered to incredibly challenging timescales, moving from establishing a team in Sprint 0 to MVP release in 3 months. Key to Tom's role was coordinating the teams, ensuring the technical quality and prioritising necessary changes for the initial release.",
         "current": true,
         "start": "2020-08-04",
-	"end": "2021-03-31",
+	      "end": "2021-03-31",
         "location": "Working From Home, West Yorkshire, UK",
         "url": "https://bjss.com/"
       },
@@ -245,6 +242,18 @@
           "retrospectives",
           "kanban",
           "scrum"
+        ]
+      },
+      {
+        "name": "Cloud Computing",
+        "level": "intermediate",
+        "skills": [
+          "AWS",
+          "SES",
+          "SQS",
+          "Aurora",
+          "RDS",
+          "lambda"
         ]
       },
       {

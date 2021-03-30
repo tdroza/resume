@@ -27,7 +27,6 @@
   },
   "homepage": "https://github.com/tdroza/resume#readme",
   "dependencies": {
-    "supports-color": "^8.1.1",
     "hackmyresume": "^1.9.0-beta",
     "jsonresume-theme-eloquent": "^4.1.0",
     "jsonresume-theme-modern": "0.0.18",
